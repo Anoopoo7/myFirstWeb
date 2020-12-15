@@ -1,0 +1,196 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family:Ariel,Helvetica, sans-serif;
+}
+/*header starts*/
+header{
+    width:100%;
+    background-color:rgba(23,23,23,0.25);
+    padding:20px;
+    position: absolute;
+    top:0;
+}
+header .container{
+    display:flex;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 14px;
+    color:rgba(255,255,255,0.7);
+    letter-spacing: 1px;
+    font-family: Tahama;
+}
+/*header ends and baner starts*/
+
+.banner{
+    width:100%;
+    height:100vh;
+    background: linear-gradient(rgba(1,50,180,1),rgba(13,96,180,0.85));
+    display:flex;
+    align-items: center;
+}
+.banner .container{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    width:100%;
+
+}
+/*banner end and intro starts*/
+.left{
+    width:600px;
+    align-self:flex-start;
+}
+.left h1{
+    margin:0px;
+    font-size:40px;
+    color:white;
+}
+.left p{
+    margin:0px;
+    font-size:14px;
+    letter-spacing:1px;
+    color:rgba(255,255,255,0.8);
+    margin-top:20px;
+    line-height:20px;
+}
+.left button{
+    color:#2098ca;
+    background-color:white;
+    font-weight:bold;
+    border:none;
+    padding:12px 50px;
+    border-radius:6px;
+    margin-top:15px;
+    cursor:pointer;
+}
+/*intro ends nd form starts*/
+.right{
+    width:400px;
+    background-color:white;
+    border-radius:15px;
+    padding:40px;
+    box-shadow:0 5px 6px rgba(0,0,0,0.5);
+}
+.right h4{
+    font-size:20px;
+    width:300px;
+    margin:auto;
+    margin-bottom:30px;
+    color:rgb(66,66,66);
+}
+.input-group{
+    width:300px;
+    margin:30px auto;
+    display:flex;
+    position:relative;
+    flex-direction:column;
+}
+.input-group label{
+    color: rgb(100,100,100);
+    font-size:14px;
+    position:absolute;
+    top: 10px;
+    transition:0.3s ease-in-out;
+}
+.input-group input{
+    border:none;
+    padding:7px;
+    margin-top: 5px;
+    outline:none;
+    border-bottom: 1px solid #c9c9c98a;
+}
+.input-group input:focus ~ label,
+.input-group input:valid ~ label{
+    color:rgb(100,100,200);
+    top:-10px;
+    font-size:12px;
+}
+.submit{
+    text-align:center;
+}
+.submit button{
+    background-color:rgba(10,50,150,1);
+    color:white;
+    border:none;
+    padding:10px 0 ;
+    margin-top:15px;
+    border-radius:5px;
+    width:300px;
+    cursor:pointer;
+}
+.submit button:hover{
+    box-shadow:0 3px 6px rgb(80,80,80) ;
+}
+/*form ends and second section starts*/
+/*photo adding and animation*/
+.container2{
+    display:flex;
+    justify-content:space-evenly;
+    height:100vh;
+    align-items:center;
+}
+.card {
+    width:350px;
+    border-radius:15px;
+    box-shadow:10px 5px 26px rgb(165,165,165);
+    overflow:hidden;
+    text-align:center;
+}
+.image{
+    width:100%;
+    height:450px;
+    overflow:hidden;
+}
+.card h1{
+    color:rgb(133,133,133);
+}
+.card img{
+    width:100%;
+    height:100%;
+    transition:0.35s ease-in-out;
+}
+img:hover{
+    transform:scale(1.1) rotate(-2deg);
+}
+/*second sections ends*/
+footer{
+    text-align:center;
+    display:flux;
+    width:100%
+    height:400vh;
+    background-color:rgba(1,50,180,1);
+}
+.foot{
+   color:rgba(225,225,225,0.8);
+   weight:450px;
+   height:100px;
+   padding:35px;
+}
+.foot span{
+    color:white;
+    font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
